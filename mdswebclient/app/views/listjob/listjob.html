@@ -1,0 +1,19 @@
+<div>
+<table class="table table-bordered">
+    <tr ng-repeat="tab in tabs">
+      <td>{{tab.skill}}</td>
+      <td>
+        <table class="table table-bordered">
+          <tr ng-repeat="job in tab.jobs">
+              <td>{{job.position}}</td>
+              <td><a href="{{job.job_url}}">Job URL</a></td>
+              <td>{{job.city}}</td>
+              <td>{{job.published_by_employer_at}}</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+</table>
+</div>
+
+

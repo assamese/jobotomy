@@ -1,0 +1,400 @@
+---
+swagger: "2.0"
+info:
+  description: "Techskills API swagger-2.0 specification"
+  version: "1.0.0"
+  title: "Techskills API"
+  termsOfService: "http://www.espronto.com/terms-of-use.pdf"
+  contact:
+    name: "esPronto API team"
+    url: "http://espronto.com"
+    email: "info@espronto.com"
+  license:
+    name: "MIT"
+    url: "http://opensource.org/licenses/MIT"
+host: "52.33.218.252:3000"
+basePath: "/api"
+schemes:
+- "http"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /authentication:
+    post:
+      description: "Authenticate"
+      operationId: "authenticate"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "authParams"
+        description: "username/Pwd to verify"
+        required: true
+        schema:
+          $ref: "#/definitions/newAuth"
+      responses:
+        200:
+          description: "authenticate response"
+          schema:
+              $ref: "#/definitions/authResponse"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+    x-swagger-router-controller: "TechskillsAPI"
+  /jobs:
+    post:
+      description: "Creates a new job.  Duplicates are allowed"
+      operationId: "addJob"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "job_url"
+        description: "Job url to add"
+        required: true
+        schema:
+          $ref: "#/definitions/newJob"
+      responses:
+        200:
+          description: "job response"
+          schema:
+            $ref: "#/definitions/job"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+  /jobsbyskillname/{skill_name}:
+    get:
+      description: "Returns jobs that requires the skill"
+      operationId: "findJobsBySkillName"
+      produces:
+      - "application/json"
+      - "application/xml"
+      - "text/xml"
+      - "text/html"
+      parameters:
+      - name: "skill_name"
+        in: "path"
+        description: "Name of skill required"
+        required: true
+        type: "string"
+      - name: "limit"
+        in: "query"
+        description: "maximum number of results to return"
+        required: false
+        type: "integer"
+        format: "int32"
+      responses:
+        200:
+          description: "jobs response"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/job"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+  /jobs/{skill_id}:
+    get:
+      description: "Returns jobs that requires the skill"
+      operationId: "findJobsBySkillId"
+      produces:
+      - "application/json"
+      - "application/xml"
+      - "text/xml"
+      - "text/html"
+      parameters:
+      - name: "skill_id"
+        in: "path"
+        description: "ID of skill required"
+        required: true
+        type: "string"
+      - name: "limit"
+        in: "query"
+        description: "maximum number of results to return"
+        required: false
+        type: "integer"
+        format: "int32"
+      responses:
+        200:
+          description: "jobs response"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/job"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+  /skills:
+    get:
+      description: "Returns all skills from the system that the user has access to"
+      operationId: "findSkills"
+      produces:
+      - "application/json"
+      - "application/xml"
+      - "text/xml"
+      - "text/html"
+      parameters:
+      - name: "wildcard"
+        in: "query"
+        description: "wildcard to filter by"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "skill response"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/skill"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+    post:
+      description: "Creates a new skill.  Duplicates are allowed"
+      operationId: "addSkill"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "skill"
+        description: "Skill to add"
+        required: true
+        schema:
+          $ref: "#/definitions/newSkill"
+      responses:
+        200:
+          description: "skill response"
+          schema:
+            $ref: "#/definitions/skill"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+  /skills/{id}:
+    get:
+      description: "Returns a skill corresponding to the skill_id"
+      operationId: "findSkillById"
+      produces:
+      - "application/json"
+      - "application/xml"
+      - "text/xml"
+      - "text/html"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "ID of skill to fetch"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "skill response"
+          schema:
+            $ref: "#/definitions/skill"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+    delete:
+      description: "deletes a single skill based on the ID supplied"
+      operationId: "deleteSkill"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "ID of skill to delete"
+        required: true
+        type: "string"
+      responses:
+        204:
+          description: "skill deleted"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+  /subskills/{skillname}:
+    get:
+      description: "Returns subskills corresponding to the skill"
+      operationId: "findSubskills"
+      produces:
+      - "application/json"
+      - "application/xml"
+      - "text/xml"
+      - "text/html"
+      parameters:
+      - name: "skillname"
+        in: "path"
+        description: "Name of skill for which subskills are desired"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "skill response"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/subskill"
+        default:
+          description: "unexpected error"
+          schema:
+            $ref: "#/definitions/errorModel"
+      x-swagger-router-controller: "TechskillsAPI"
+definitions:
+  subskill:
+    type: "object"
+    required:
+    - "skillname"
+    properties:
+      skillname:
+        type: "string"
+  skill:
+    type: "object"
+    required:
+    - "id"
+    - "name"
+    properties:
+      id:
+        type: "string"
+      parent_skill:
+        type: "string"
+      name:
+        type: "string"
+      author:
+        type: "string"
+      sub_skills:
+        type: "array"
+        items:
+          type: "string"
+      skill_discussion_id:
+        type: "string"
+      unique_views:
+        type: "integer"
+        format: "int32"
+      total_views:
+        type: "integer"
+        format: "int32"
+      published_at:
+        type: "string"
+        format: "date-time"
+      status:
+        type: "string"
+  newSkill:
+    type: "object"
+    required:
+    - "name"
+    properties:
+      id:
+        type: "string"
+      name:
+        type: "string"
+  job:
+    type: "object"
+    required:
+    - "id"
+    - "job_url"
+    properties:
+      id:
+        type: "string"
+      job_url:
+        type: "string"
+      author:
+        type: "string"
+      city:
+        type: "string"
+      position:
+        type: "string"
+      company:
+        type: "string"
+      status:
+        type: "string"
+      job_discussion_id:
+        type: "string"
+      unique_views:
+        type: "integer"
+        format: "int32"
+      total_views:
+        type: "integer"
+        format: "int32"
+      skills:
+        type: "array"
+        items:
+          type: "string"
+      remaining_skills:
+        type: "string"
+      published_by_employer_at:
+        type: "string"
+        format: "date-time"
+      published_at:
+        type: "string"
+        format: "date-time"
+  newAuth:
+    type: "object"
+    required:
+    - "username"
+    - "password"
+    properties:
+      username:
+        type: "string"
+      password:
+        type: "string"
+  authResponse:
+    type: "object"
+    required:
+    - "token"
+    - "id"
+    properties:
+      token:
+        type: "string"
+      id:
+        type: "string"
+      success:
+        type: "boolean"
+  newJob:
+    type: "object"
+    required:
+    - "author"
+    - "job_url"
+    - "skills"
+    properties:
+      job_url:
+        type: "string"
+      author:
+        type: "string"
+      city:
+        type: "string"
+      position:
+        type: "string"
+      company:
+        type: "string"
+      published_by_employer_at:
+        type: "string"
+        format: "date-time"
+      skills:
+        type: "array"
+        items:
+          type: "string"
+      remaining_skills:
+        type: "string"
+  errorModel:
+    type: "object"
+    required:
+    - "code"
+    - "message"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"

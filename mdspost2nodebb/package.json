@@ -1,0 +1,12 @@
+{
+  "name": "post2nodebb",
+  "description": "Post job to NodeBB",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "mongoose": "^4.1.8",
+    "morgan": "^1.6.1",
+    "node-rest-client": "^1.0.0",
+    "q": "~1.2.0"
+  }
+}

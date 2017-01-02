@@ -1,0 +1,63 @@
+
+<div class="row">
+    <div class="col-md-3 col-sm-2">
+    </div>
+    <div class="col-md-6 col-sm-8 col-xs-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Add Job</div>
+            <div class="panel-body">
+                <form novalidate name="addJobForm">
+                    <div class="form-group" show-errors>
+                        <label for="author">Author (Your email)</label>
+                        <input type="text" form-enter class="form-control" name="author" ng-model="addJobRequest.author" auto-focus required
+                        id="author">
+                    </div>
+                    <div class="form-group" show-errors>
+                        <label for="job_url">Job URL</label>
+                        <input type="text" form-enter class="form-control" name="job_url" ng-model="addJobRequest.job_url" required
+                        id="job_url">
+                    </div>
+                    <div class="form-group" show-errors>
+                        <label for="position">Position</label>
+                        <input type="text" form-enter class="form-control" name="position" ng-model="addJobRequest.position" required placeholder="Position"
+                        id="position">
+                    </div>
+                    <div class="form-group" show-errors>
+                        <label for="city">City</label>
+                        <input type="text" form-enter class="form-control" name="city" ng-model="addJobRequest.city" required placeholder="City"
+                        id="city">
+                    </div>
+                    <div class="form-group" show-errors>
+                        <label for="published_by_employer_at">Date when this job was posted</label>
+                        <input type="date" form-enter class="form-control" name="city" ng-model="addJobRequest.published_by_employer_at" required
+                        id="published_by_employer_at">
+                    </div>
+
+					<label ng-repeat="aSkillAndId in allSkillsAndIds" class="checkbox-inline">
+					  <input type="checkbox" checklist-model="user.selectedSkills" checklist-value="aSkillAndId.name"> {{aSkillAndId.name}}
+					</label>
+
+                    <div class="form-group">
+                        <label>Sub skills : </label>
+                        <br>
+                    </div>
+
+                    <div class="form-group" show-errors>
+                        <label for="remaining_skills">Enter remaining Skills (separated by comma)</label>
+                        <input type="text" form-enter class="form-control" name="remaining_skills" ng-model="addJobRequest.remaining_skills" required
+                        id="remaining_skills">
+                    </div>
+
+                    <div class="form-group has-error" ng-show="errors.length > 0">
+                        <error-message ng-repeat="error in errors" message="{{error}}" show-error="true">
+                        </error-message>
+                    </div>
+
+                    <button type="submit" ng-click="todo()" ng-disabled="addJobForm.$invalid || submittingForm" class="button button-full button-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-2">
+    </div>
+</div>

@@ -1,0 +1,1170 @@
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Perl",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Machine-Learning",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Heroku",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Linux,Unix",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Shell,BASH",
+        "Debian",
+        "Ubuntu",
+        "Redhat",
+        "Centos"
+    ]
+    }, 
+    {
+    "parent_skill" : "Linux,Unix",
+    "author" : "assamese@hotmail.com",
+    "name" : "Shell,BASH",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Linux,Unix",
+    "author" : "assamese@hotmail.com",
+    "name" : "Debian",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Linux,Unix",
+    "author" : "assamese@hotmail.com",
+    "name" : "Ubuntu",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Linux,Unix",
+    "author" : "assamese@hotmail.com",
+    "name" : "Redhat",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Linux,Unix",
+    "author" : "assamese@hotmail.com",
+    "name" : "Centos",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "API",
+    "status" : "active",
+    "sub_skills" : [ 
+        "JSON",
+        "XML",
+        "REST,RESTful",
+        "SOAP",
+        "Microservice"
+    ]
+    }, 
+    {
+    "parent_skill" : "API",
+    "author" : "assamese@hotmail.com",
+    "name" : "Microservice",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "API",
+    "author" : "assamese@hotmail.com",
+    "name" : "JSON",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "API",
+    "author" : "assamese@hotmail.com",
+    "name" : "XML",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "API",
+    "author" : "assamese@hotmail.com",
+    "name" : "REST,RESTful",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "API",
+    "author" : "assamese@hotmail.com",
+    "name" : "SOAP",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Big-Data",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Hadoop",
+        "HDFS",
+        "Hive",
+        "Pig",
+        "Spark",
+        "MapReduce"
+    ]
+    }, 
+    {
+    "parent_skill" : "Big-Data",
+    "author" : "assamese@hotmail.com",
+    "name" : "Hadoop",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Big-Data",
+    "author" : "assamese@hotmail.com",
+    "name" : "HDFS",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Big-Data",
+    "author" : "assamese@hotmail.com",
+    "name" : "Hive",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Big-Data",
+    "author" : "assamese@hotmail.com",
+    "name" : "Pig",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Big-Data",
+    "author" : "assamese@hotmail.com",
+    "name" : "Spark",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Big-Data",
+    "author" : "assamese@hotmail.com",
+    "name" : "MapReduce",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Webserver",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Apache",
+        "Tomcat",
+        "NGINX",
+        "IIS ",
+        "HAProxy",
+        "Varnish",
+        "Jetty"
+    ]
+    }, 
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "IIS ",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "HAProxy",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "Varnish",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "Jetty",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "Apache",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "Tomcat",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Webserver",
+    "author" : "assamese@hotmail.com",
+    "name" : "NGINX",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Git,Github,SVN",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Jira",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "HTML,HTML5",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "HTTP",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "TCP,TCP\/IP,IP_",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : ".NET",
+    "status" : "active",
+    "sub_skills" : [ 
+        "ASP.NET",
+        "ServiceStack",
+        "Visual-studio"
+    ]
+    },
+    {
+    "parent_skill" : ".NET",
+    "author" : "assamese@hotmail.com",
+    "name" : "ServiceStack",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : ".NET,",
+    "author" : "assamese@hotmail.com",
+    "name" : "Visual-studio",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : ".NET",
+    "author" : "assamese@hotmail.com",
+    "name" : "ASP.NET",
+    "status" : "active"
+    }, 
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "QA_,Testing",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Selenium"
+    ]
+    },
+    {
+    "parent_skill" : "QA_,Testing",
+    "author" : "assamese@hotmail.com",
+    "name" : "Selenium",
+    "status" : "active"
+    },   
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Confluence",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Scrum,Agile",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Matlab",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "iOS",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Objective-C",
+        "Swift",
+        "Xcode"
+    ]
+    },
+    {
+    "parent_skill" : "iOS",
+    "author" : "assamese@hotmail.com",
+    "name" : "Objective-C",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "iOS",
+    "author" : "assamese@hotmail.com",
+    "name" : "Swift",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "iOS",
+    "author" : "assamese@hotmail.com",
+    "name" : "Xcode",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "CSS",
+    "status" : "active",
+    "sub_skills" : [ 
+        "SASS",
+        "SCSS",
+        "LESS"
+    ]
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Android",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Android-Studio",
+        "NDK"
+    ]
+    },
+    {
+    "parent_skill" : "Android",
+    "author" : "assamese@hotmail.com",
+    "name" : "Android-Studio",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Android",
+    "author" : "assamese@hotmail.com",
+    "name" : "NDK",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Bootstrap",
+    "status" : "active"
+    },
+        {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "PHP",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Laravel",
+        "CakePHP"
+    ]
+    },
+    {
+    "parent_skill" : "PHP",
+    "author" : "assamese@hotmail.com",
+    "name" : "Laravel",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "PHP",
+    "author" : "assamese@hotmail.com",
+    "name" : "CakePHP",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Go_,Go,Golang",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "C,C++",
+    "status" : "active"
+    },
+        {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "C#,C#_",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Ruby",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Rails",
+        "Sinatra"
+    ]
+    },
+    {
+    "parent_skill" : "Ruby",
+    "author" : "assamese@hotmail.com",
+    "name" : "Sinatra",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Ruby",
+    "author" : "assamese@hotmail.com",
+    "name" : "Rails",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Scala",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "R,R-Language,R__",
+    "status" : "active"
+    },
+        {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Java",
+    "status" : "active",
+    "sub_skills" : [ 
+        "J2EE",
+        "JBoss",
+        "Hibernate",
+        "Spring",
+        "Eclipse",
+        "IntelliJ"
+    ]
+    },
+    {
+    "parent_skill" : "Java",
+    "author" : "assamese@hotmail.com",
+    "name" : "Eclipse",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Java",
+    "author" : "assamese@hotmail.com",
+    "name" : "IntelliJ",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Java",
+    "author" : "assamese@hotmail.com",
+    "name" : "J2EE",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Java",
+    "author" : "assamese@hotmail.com",
+    "name" : "JBoss",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Java",
+    "author" : "assamese@hotmail.com",
+    "name" : "Hibernate",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Java",
+    "author" : "assamese@hotmail.com",
+    "name" : "Spring",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Python",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Pandas",
+        "SciPy",
+        "Flask",
+        "Django",
+        "NumPy",
+        "mod-python",
+        "PyCharm",
+        "SQLAlchemy"
+    ]
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "NumPy",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "mod-python",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "PyCharm",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "SQLAlchemy",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "Pandas",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "SciPy",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "Flask",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Python",
+    "author" : "assamese@hotmail.com",
+    "name" : "Django",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "AWS,Amazon",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Lambda",
+        "EC2",
+        "RDS",
+        "ELB",
+        "S3_",
+        "Route-53",
+        "Block-Storage",
+        "VPC",
+        "AWS-CLI",
+        "Cloud-Watch",
+        "IAM",
+        "Elastic_Beanstalk,Beanstalk",
+        "DynamoDB",
+        "Redshift"
+    ]
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "Lambda",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "EC2",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "RDS",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "ELB",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "S3_",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "Route-53",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "Block-Storage",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "VPC",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "AWS-CLI",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "Cloud-Watch",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "IAM",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "Elastic_Beanstalk,Beanstalk",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "DynamoDB",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "AWS,Amazon",
+    "author" : "assamese@hotmail.com",
+    "name" : "Redshift",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Azure",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Wordpress",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "MVC",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Node.js",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Messaging",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Kafka",
+        "JMS",
+        "RabbitMQ"
+    ]
+    },
+    {
+    "parent_skill" : "Messaging",
+    "author" : "assamese@hotmail.com",
+    "name" : "Kafka",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Messaging",
+    "author" : "assamese@hotmail.com",
+    "name" : "JMS",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Messaging",
+    "author" : "assamese@hotmail.com",
+    "name" : "RabbitMQ",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Javascript",
+    "status" : "active",
+    "sub_skills" : [ 
+        "jQuery",
+        "AJAX",
+        "Coffeescript",
+        "ReactJS,React",
+        "AngularJS,Angular",
+        "ES6,ES2015,ES15",
+        "Ember,EmberJS",
+        "Backbone,BackboneJS",
+        "TypeScript",
+        "Babel",
+        "Redux",
+        "JSX",
+        "D3.js,D3_"
+    ]
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "Babel",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "Redux",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "JSX",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "D3.js,D3_",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "TypeScript",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "Backbone,BackboneJS",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "Ember,EmberJS",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "ES6,ES2015,ES15",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "jQuery",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "AJAX",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "Coffeescript",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "ReactJS,React",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Javascript",
+    "author" : "assamese@hotmail.com",
+    "name" : "AngularJS,Angular",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Container",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Docker",
+        "Vagrant",
+        "Mesos,Apache-Mesos"
+    ]
+    },
+    {
+    "parent_skill" : "Container",
+    "author" : "assamese@hotmail.com",
+    "name" : "Mesos,Apache-Mesos",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Container",
+    "author" : "assamese@hotmail.com",
+    "name" : "Docker",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "Container",
+    "author" : "assamese@hotmail.com",
+    "name" : "Vagrant",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Twilio",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "UI\/UX,UX",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Sketch",
+        "Balsamiq",
+        "Axure"
+    ]
+    },
+    {
+    "parent_skill" : "UI\/UX,UX",
+    "author" : "assamese@hotmail.com",
+    "name" : "Axure",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "UI\/UX,UX",
+    "author" : "assamese@hotmail.com",
+    "name" : "Sketch",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : "UI\/UX,UX",
+    "author" : "assamese@hotmail.com",
+    "name" : "Balsamiq",
+    "status" : "active"
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Meteor",
+    "status" : "active"
+    },
+                {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Search",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Solr",
+        "Elastic-Search, Elasticsearch,Elastic",
+        "Lucene"
+    ]
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Solr",
+    "status" : "active",
+    "parent_skill" : "Search"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Elastic-Search,Elasticsearch,Elastic",
+    "status" : "active",
+    "parent_skill" : "Search"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Lucene",
+    "status" : "active",
+    "parent_skill" : "Search"
+    },  
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Devops,CI\/CD",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Jenkins",
+        "Maven",
+        "Chef",
+        "Puppet",
+        "Ansible",
+        "SaltStack",
+        "Nagios",
+        "Consul",
+        "New-Relic",
+        "Capistrano",
+        "ZooKeeper, Apache-ZooKeeper",
+        "Pingdom",
+        "Kubernetes",
+        "Gulp",
+        "Bower",
+        "Grunt",
+        "Webpack"
+    ]
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Gulp",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Bower",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Grunt",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Webpack",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Consul",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "New-Relic",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Capistrano",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "ZooKeeper, Apache-ZooKeeper",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Pingdom",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Kubernetes",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Jenkins",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Maven",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Chef",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Puppet",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Ansible",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "SaltStack",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Nagios",
+    "status" : "active",
+    "parent_skill" : "Devops,CI\/CD"
+    },  
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "Adobe-Creative-Suite",
+    "status" : "active",
+    "sub_skills" : [ 
+        "Photoshop",
+        "Illustrator"
+    ]
+    },
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "NoSQL",
+    "status" : "active",
+    "sub_skills" : [ 
+        "MongoDB",
+        "Redis",
+        "Cassandra",
+        "CouchDB, Couchbase",
+        "Memcached",
+        "Riak"
+    ]
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Riak",
+    "status" : "active",
+    "parent_skill" : "NoSQL"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "MongoDB",
+    "status" : "active",
+    "parent_skill" : "NoSQL"
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Redis",
+    "status" : "active",
+    "parent_skill" : "NoSQL"
+    }, 
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "CouchDB, Couchbase",
+    "status" : "active",
+    "parent_skill" : "NoSQL"
+    }, 
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Cassandra",
+    "status" : "active",
+    "parent_skill" : "NoSQL"
+    }, 
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Memcached",
+    "status" : "active",
+    "parent_skill" : "NoSQL"
+    },  
+    {
+    "parent_skill" : null,
+    "author" : "assamese@hotmail.com",
+    "name" : "SQL,RDBMS",
+    "status" : "active",
+    "sub_skills" : [ 
+        "PostgreSQL",
+        "MySQL",
+        "SQL-Server,SQL_Server",
+        "Oracle"
+    ]
+    },
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "PostgreSQL",
+    "status" : "active",
+    "parent_skill" : "SQL,RDBMS"
+    }, 
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "MySQL",
+    "status" : "active",
+    "parent_skill" : "SQL,RDBMS"
+    }, 
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "SQL-Server,SQLServer",
+    "status" : "active",
+    "parent_skill" : "SQL,RDBMS"
+    }, 
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Oracle",
+    "status" : "active",
+    "parent_skill" : "SQL,RDBMS"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "SASS",
+    "status" : "active",
+    "parent_skill" : "CSS"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "LESS",
+    "status" : "active",
+    "parent_skill" : "CSS"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "SCSS",
+    "status" : "active",
+    "parent_skill" : "CSS"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Illustrator",
+    "status" : "active",
+    "parent_skill" : "Adobe-Creative-Suite"
+    },  
+    {
+    "author" : "assamese@hotmail.com",
+    "name" : "Photoshop",
+    "status" : "active",
+    "parent_skill" : "Adobe-Creative-Suite"
+    },      
+
